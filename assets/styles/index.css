@@ -1,0 +1,63 @@
+footer {
+  background: var(--foreground-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.git-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.git-link, .cat-link  {
+  display: flex;
+  text-decoration: none;
+}
+
+.git-link > img {
+  object-fit: cover;  
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.git-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--primary-color);
+  width: 48px;
+  height: 48px;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.cat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--primary-color);
+  width: 48px;
+  height: 48px;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.cat-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--background-color);
+  height: 48px;
+  padding: 0 1rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1rem;
+}
