@@ -1,7 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  height: 100%;
+}
 
 main {
-  height: calc(100vh - 9.75rem);
-
+  margin: auto;
+  width: 100%;
 }
 
 .wrapper {
@@ -12,6 +19,7 @@ main {
   align-items: center;
   max-width: 80rem;
   width: 100%;
+  height: 100%;
   padding: 2rem 4rem;
 }
 
@@ -22,6 +30,11 @@ main {
   font-weight: 700;
 }
 
+.destak {
+  object-fit: cover;
+  margin-left: 1rem;
+}
+
 .description {
   max-width: 24rem;
   color: var(--text-color);
@@ -29,6 +42,7 @@ main {
   font-weight: 700;
   margin: 2rem 0 1.5rem;
 }
+
 
 .text {
   color: var(--text-color);
@@ -61,7 +75,7 @@ footer {
   text-decoration: none;
 }
 
-.git-picture {
+.gitpicture {
   object-fit: cover;  
   border-top-left-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
@@ -105,4 +119,35 @@ footer {
   color: var(--text-color);
   font-weight: 700;
   font-size: 1rem;
+}
+
+@media(max-width: 40rem) {
+  footer .wrapper {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}
+
+@media(max-width: 64rem) {
+  .destak {
+    width: 24rem;
+    height: auto;
+  }
+}
+
+@media(max-width: 54rem) {
+  .destak {
+    width: 20rem;
+    height: auto;
+  }
+}
+
+@media(max-width: 48rem) {
+  .destak {
+    display: none;
+  }
+
+  main .wrapper {
+    justify-content: center;
+  }
 }
