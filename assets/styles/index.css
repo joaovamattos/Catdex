@@ -1,9 +1,54 @@
-footer {
-  background: var(--foreground-color);
+
+main {
+  height: calc(100vh - 9.75rem);
+
+}
+
+.wrapper {
+  margin: 0 auto;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 80rem;
+  width: 100%;
   padding: 2rem 4rem;
+}
+
+.title {
+  margin-left: .5rem;
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.description {
+  max-width: 24rem;
+  color: var(--text-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem 0 1.5rem;
+}
+
+.text {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+
+  margin-bottom: 3rem;
+}
+
+.description-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer {
+  background: var(--foreground-color);
+  display: flex;
+  align-items: center;
+  height: 9.75rem;
 }
 
 .git-links {
@@ -11,12 +56,12 @@ footer {
   gap: 1rem;
 }
 
-.git-link, .cat-link  {
+.row {
   display: flex;
   text-decoration: none;
 }
 
-.git-link > img {
+.git-picture {
   object-fit: cover;  
   border-top-left-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
