@@ -1,27 +1,27 @@
 :root {
-    --primary-color: #F49D37;
-    --text-color: #2E2D4D;
-    --background-color: #FFFFFF;
-    --foreground-color : #F4F4F8;
+  --primary-color: #f49d37;
+  --text-color: #2e2d4d;
+  --background-color: #ffffff;
+  --foreground-color: #f4f4f8;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .btn-primary {
   border-radius: 0.25rem;
   color: var(--background-color);
   padding: 1rem 2rem;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  font-size: .875rem;
+
+  font-size: 0.875rem;
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
@@ -31,11 +31,11 @@
   background-repeat: no-repeat;
   background-size: 0% 100%;
   background-position-x: right;
-  transition: background-size 0.5s;  
+  transition: background-size 0.5s;
 }
 
 .btn-primary:hover {
-    background-image: linear-gradient(var(--text-color), var(--text-color));
-    background-size: 100% 100%;
-    background-position-x: left;
+  background-image: linear-gradient(var(--text-color), var(--text-color));
+  background-size: 100% 100%;
+  background-position-x: left;
 }

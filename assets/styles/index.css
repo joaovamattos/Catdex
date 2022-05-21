@@ -24,7 +24,7 @@ main {
 }
 
 .title {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   color: var(--text-color);
   font-size: 2rem;
   font-weight: 700;
@@ -43,7 +43,6 @@ main {
   margin: 2rem 0 1.5rem;
 }
 
-
 .text {
   color: var(--text-color);
   font-size: 1rem;
@@ -55,7 +54,6 @@ main {
 .description-wrapper {
   display: flex;
   flex-direction: column;
-
 }
 
 footer {
@@ -76,7 +74,7 @@ footer {
 }
 
 .git-picture {
-  object-fit: cover;  
+  object-fit: cover;
   border-top-left-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
@@ -121,28 +119,28 @@ footer {
   font-size: 1rem;
 }
 
-@media(max-width: 40rem) {
+@media (max-width: 40rem) {
   footer .wrapper {
     flex-direction: column-reverse;
     gap: 1rem;
   }
 }
 
-@media(max-width: 64rem) {
+@media (max-width: 64rem) {
   .destak {
     width: 24rem;
     height: auto;
   }
 }
 
-@media(max-width: 54rem) {
+@media (max-width: 54rem) {
   .destak {
     width: 20rem;
     height: auto;
   }
 }
 
-@media(max-width: 48rem) {
+@media (max-width: 48rem) {
   .destak {
     display: none;
   }

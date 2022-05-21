@@ -1,0 +1,174 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-wrapper {
+  margin-top: 4.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin-left: 0.5rem;
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cat-presentantion-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+
+.cat-name {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.country-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.flag {
+  width: 1rem;
+  height: 1rem;
+}
+
+.contry-name {
+  font-size: 0.875rem;
+  color: var(--text-color);
+}
+
+.cat-details-container {
+  width: 100%;
+  position: relative;
+
+  margin-top: 2.25rem;
+  background: var(--foreground-color);
+}
+
+.cat-details-wrapper {
+  margin: 0 auto;
+
+  max-width: 34.375rem;
+  width: 100%;
+  padding: 2.25rem 1.5rem;
+}
+
+.api-controls {
+  position: absolute;
+
+  right: 1.5rem;
+  top: calc(3.375rem / 2 * -1); /* half of the button height */
+}
+
+.api-controls button {
+  width: 3.375rem;
+  height: 3.375rem;
+
+  background: var(--text-color);
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.temperament-wrapper {
+  display: flex;
+  gap: 0.5rem;
+
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.temperament {
+  font-size: 0.625rem;
+  padding: 0.25rem 0.5rem;
+  color: var(--text-color);
+  background: #d4d4d8;
+  border-radius: 0.5rem;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.skill-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skill {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.skill-stars-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.like-options-wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.like-options-wrapper button {
+  flex: 1;
+  height: 3.375rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: opacity ease 0.2s;
+}
+
+.like-options-wrapper button:hover {
+  opacity: 0.9;
+}
+
+.dislike-button {
+  background: var(--text-color);
+}
+
+.like-button {
+  background: var(--primary-color);
+}
