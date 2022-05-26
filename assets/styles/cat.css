@@ -139,36 +139,3 @@
   align-items: center;
   gap: 0.25rem;
 }
-
-.like-options-wrapper {
-  margin-top: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.like-options-wrapper button {
-  flex: 1;
-  height: 3.375rem;
-  cursor: pointer;
-  border: 0;
-  border-radius: 0.25rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: opacity ease 0.2s;
-}
-
-.like-options-wrapper button:hover {
-  opacity: 0.9;
-}
-
-.dislike-button {
-  background: var(--text-color);
-}
-
-.like-button {
-  background: var(--primary-color);
-}
