@@ -24,18 +24,21 @@
   <body>
     <div class="wrapper">
       <div class="title-wrapper">
-        <div class="row">
-          <img src="./assets/images/icons/book.svg" alt="Book Icon" />
-          <h1 class="title">Catdex</h1>
-        </div>
+        <a href="/" style="text-decoration: none">
+          <div class="row">
+            <img src="./assets/images/icons/book.svg" alt="Book Icon" />
+            <h1 class="title">Catdex</h1>
+          </div>
+        </a>
       </div>
       <div class="cat-presentantion-wrapper">
         <img
           src="./assets/images/cat-placeholder-image.png"
           alt="Photo of the cat"
           class="photo"
+          id="picture"
         />
-        <h2 class="cat-name">Bengal</h2>
+        <h2 class="cat-name" id="name">Bengal</h2>
         <div class="country-wrapper">
           <img
             src="./assets/images/country-placeholder-image.svg"
@@ -202,6 +205,10 @@
             </div>
           </div>
 
+          <a href="cat.html" class="btn-primary" style="margin-top: 2.5rem"
+            >Wikipédia</a
+          >
+
           <div class="like-options-wrapper">
             <button class="dislike-button">
               <img src="assets/images/icons/thumbs-down.svg" alt="Dislike" />
@@ -213,5 +220,6 @@
         </div>
       </div>
     </div>
+    <script src="./assets/js/cat.js"></script>
   </body>
 </html>
