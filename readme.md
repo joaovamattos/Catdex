@@ -16,4 +16,13 @@ Catdex
 
 ## About
 
-This app was developed as part of the postgraduate assessment. Your goal is to consume TheCatApi.
+This app was developed as part of the postgraduate assessment. Your goal is to consume **TheCatApi**.
+
+## Features
+
+This app features:
+
+- 😼 **TheCatAPI** — A public service API all about Cats
+- 🚩 **Flagcdn.com** — A service created by Flagpedia.net. It provides an easy solution to embed flags
+- 💻 **HTML + CSS + Javascript** — Set of technologies that work together to form the front end
+- 💻 **GitHub Pages** — Direct hosting of the project repository provided by GitHub
