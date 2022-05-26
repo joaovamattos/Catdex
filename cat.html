@@ -22,6 +22,9 @@
     <title>Catdex</title>
   </head>
   <body>
+    <div class="loaded" id="animation">
+      <lottie-player src="./assets/animations/load.json"  background="transparent"  speed="1"  style="width: 320px; height: 320px;"  loop  autoplay></lottie-player>
+    </div>
     <div class="wrapper">
       <div class="title-wrapper">
         <a href="/" style="text-decoration: none">
@@ -31,6 +34,7 @@
           </div>
         </a>
       </div>
+      
       <div class="cat-presentantion-wrapper">
         <img
           src="./assets/images/cat-placeholder-image.png"
@@ -41,7 +45,7 @@
         <h2 class="cat-name" id="name"></h2>
         <div class="country-wrapper">
           <img
-            src="./assets/images/country-placeholder-image.svg"
+            src=""
             alt="Country of the Catdex"
             class="flag"
           />
@@ -200,6 +204,7 @@
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="./assets/js/cat.js"></script>
   </body>
 </html>

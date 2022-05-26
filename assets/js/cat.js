@@ -30,6 +30,10 @@ async function getRandomCat() {
 }
 
 async function loadRandomCat() {
+  //show animation
+  const element = document.getElementById('animation');
+  element.className = 'loading';
+
   const cat = await getRandomCat();
 
   const catBreeds = cat.breeds[0];
@@ -37,6 +41,7 @@ async function loadRandomCat() {
   picture.src = cat.url; 
   name.innerText = catBreeds.name
   flag.src = getFlagURL(catBreeds.country_code);
+  
   country.innerText = catBreeds.origin; 
   details.innerText = catBreeds.description;
   temperamentContainer.innerHTML =  catBreeds.temperament.trim().split(',').map(temperament => {
@@ -100,6 +105,9 @@ async function loadRandomCat() {
   `;
 
   wikipediaButton.href = catBreeds.wikipedia_url;
+
+  //!show animation
+  element.className = 'loaded';
 }
 
 loadRandomCat();
