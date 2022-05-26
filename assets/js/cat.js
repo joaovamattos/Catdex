@@ -120,3 +120,9 @@ function getStar(isHighlighted = false) {
             alt="Image of star with represents a 'point' in the skill"
           />`;
 }
+
+
+//add events
+newCatButton.addEventListener('click',() => {
+ loadRandomCat();
+})
