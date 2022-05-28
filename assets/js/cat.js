@@ -106,8 +106,11 @@ async function loadRandomCat() {
 
   wikipediaButton.href = catBreeds.wikipedia_url;
 
+  setTimeout(() => {
+    element.className = 'loaded';
+  }, 2000);
+
   //!show animation
-  element.className = 'loaded';
 }
 
 loadRandomCat();
